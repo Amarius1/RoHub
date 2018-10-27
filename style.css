@@ -188,4 +188,24 @@ body {
   border-radius: 50%;
   display: inline-block;
 }
+.phone-title {
+	position:absolute;
+	left: 50px;
+	font-size: 40px;
+}
+.phone-title-smol {
+	position:absolute;
+	left: 30px;
+	font-size: 30px;
+}
+.phone-title-label {
+	position:absolute;
+	left: 10px;
+}
+.phone-title-label-smol {
+	position:absolute;
+	left: 3px;
+}
+
+
 #responsive-card
