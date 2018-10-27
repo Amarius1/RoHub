@@ -206,6 +206,19 @@ body {
 	position:absolute;
 	left: 3px;
 }
+.spacing {
+	position: relative;
+	top: 6px;
+}
+.gone {
+	opacity: 0;
+	transition: all 0.2s;
+}
+.not-gone {
+	opacity: 1;
+	transition: all 0.3s;
+}
+	
 
 
 #responsive-card
