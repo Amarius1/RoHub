@@ -7,15 +7,15 @@
 	
 	<link rel="icon" href="https://images.vexels.com/media/users/3/145821/isolated/preview/44247e29bf035ece825b8b2bf8af88c2-ilustra--o-do-foguete-da-ilustra--o-do-foguete-by-vexels.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Righteous" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<link href="style.css" type="text/css" rel="stylesheet">
 	<link href="preloader.css" type="text/css" rel="stylesheet">
+	<link href="skeleton.css" type="text/css" rel="stylesheet">
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	
 	<style>
 	::-webkit-scrollbar {
@@ -47,51 +47,10 @@
 </head>
 
 <!--LOOK ON MY WORKS YE MIGHTY AND DESPAIR-->
-<body class="bg-img">
-	<div class="navbar-fixed">
-	<nav style="height: 55px;" class="z-depth-0 transparent">
-		<div style="position:relative; right: 7px;" class="nav-wrapper right">
-				<a id="selector-nav" style="position:relative; right: 5px;" class="z-depth-3 hoverable mono waves-effect waves-blue btn-rounded btn grey darken-3 blue-text">Produse</a>
-				<a id="selector-nav" class="z-depth-3 hoverable mono waves-effect waves-blue btn-rounded btn grey darken-3 blue-text">Contact</a>
-		
-		</div>
-	</nav>
-	</div>
-    <!--CONTENT-->
-	<H1 class="heading center-all font1 grey-text text-lighten-3"><span class="font3">Ro</span>Hub<i class="medium material-icons">shopping_basket</i></H1><br>
-	<div id="list" class="heading row container">
-		<div id="list-child" class="col s1 m3">
-			<div style="height:400px; position:relative; top: -8px;" class="rounded card grey darken-4 z-depth-2">
-				<div class="card-content white-text">
-					<span class="card-title font1">Categorii</span>
-					<a id="selector" href="devices.html" class="mono category-button rounded waves-effect waves-blue btn btn-flat white-text"><i class="material-icons left">phone_android</i>Telefon</a><br>
-					<a id="selector" class="mono category-button rounded waves-effect waves-blue btn btn-flat white-text"><i class="material-icons left">laptop</i>Laptop</a><br>
-					<a id="selector" class="mono category-button rounded waves-effect waves-blue btn btn-flat white-text"><i class="material-icons left">desktop_windows</i>Desktop</a><br>
-					<a id="selector" class="mono category-button rounded waves-effect waves-blue btn btn-flat white-text"><i class="material-icons left">watch</i>Accesorii</a><br>	
-				</div>
-				<div id="promotions" style="border-radius: 9px 9px 9px 9px; position:absolute; bottom:0px; width:100%;" class="card-action">
-					<a href="#">Promotii</a>
-				</div>
-			</div>
-		</div>
-		<div id="list-child" class="col s1 m8">
-			<div class="slider">
-				<ul class="hoverable rounded slides z-depth-2">
-					<li class="rounded">
-						<img src="https://i0.wp.com/www.newsgeek.ci/wp-content/uploads/2018/07/Xiaomi-Mi-A2-lite.png"> <!-- random image -->
-					</li>
-					<li class="rounded">
-						<img src="https://www.theandroidsoul.com/wp-content/uploads/2018/08/Xiaomi-Mi-A2-update.png"> <!-- random image -->
-					</li>
-				</ul>
-			</div>	
-		</div>
-	</div>
-				
 
-  
+<H1 class="montserrat center">RoHub</H2>
 
-	
+<a class="btn fill mono">Button</a><a class="mono btn-flat">Flat Button</a><a class="mono btn-flat">Flat Button</a>
 <!--preloader-->
 
 <div class="center-all" id="load-wrapper">
@@ -113,19 +72,9 @@
 
 <!--scripts-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js'></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
 <script src="logic.js"></script>
-<script>
-   $(document).ready(function () {
-       $('.slider').slider({full_width: true});
-   });
-</script>
-<script>
-$('.slider').slider({height:300px});
-</script>
 
 
 

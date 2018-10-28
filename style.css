@@ -1,224 +1,94 @@
-.rounded
-{ 
-	border-radius: 9px 9px 9px 9px;
-	position: relative;
-}
-.nav-rounded-left
+
+
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.btn, btn, input[type="submit"], input[type="reset"], input[type="button"] 
 {
-	border-radius: 9px 0px 0px 9px;"
+	display: flex;
+	height: 38px;
+	padding: 0 30px;
+	color: #555;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1.5px solid #bbb;
+	clip-path: polygon( 
+    calc(0% + 0px) calc(0% + 0px), /* top left */
+    calc(100% - 0px) calc(0% + 0px), /* top right */
+    calc(100% - 0px) calc(100% - 0px), /* bottom right */
+    calc(0% + 0px) calc(100% - 0px) /* bottom left */
+  );
+	cursor: pointer;
+	box-sizing: border-box; 
+	transition: all 0.5s;
+	font-family: 'Roboto Mono', monospace;
+	
 }
-.nav-rounded-right
+.btn:hover, btn:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .btn:focus, btn:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus 
 {
-	border-radius: 0px 9px 9px 0px;"
+    color: #333;
+    border-color: #888;
+    outline: 0; 
 }
-nav {
-    height: 60px;
-    line-height: 55px;
-	transition: all 0.3s;
-	z-index:999;
-}
-.t-1 {
-	opacity: 0.91;
-}
-.btn-rounded
-{ 
-	border-radius: 30px 30px 30px 30px;
-	padding-left: 12px;
-	padding-right: 12px;
-	text-transform: capitalize;
-}
-.btn-category
-{ 
-	border-radius: 9px 9px 9px 9px;
-	text-transform: capitalize;
-	padding-left: 12px;
-	padding-right: 12px;
-	font-size: 20px;
-	position: absolute;
-	right: 5px;
-	top: 5px;
-}
-#selector:hover
+.btn-flat
 {
-	background-color: #263238;
-	width: 105%;
-}
-#selector-nav:hover
-{
-	background-color: #263238;
-	padding-left: 17px;
-	padding-right: 17px;
-	transition: all 0.2s;
-}
-#promotions 
-{
-	background: linear-gradient(292deg, #ff0101, #b2002e, #1201ff);
-	background-size: 400% 400%;
-	-webkit-animation: AnimationName 4s ease infinite;
-	-moz-animation: AnimationName 4s ease infinite;
-	-o-animation: AnimationName 4s ease infinite;
-	animation: AnimationName 4s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-    0%{background-position:35% 0%}
-    50%{background-position:66% 100%}
-    100%{background-position:35% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:35% 0%}
-    50%{background-position:66% 100%}
-    100%{background-position:35% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:35% 0%}
-    50%{background-position:66% 100%}
-    100%{background-position:35% 0%}
-}
-@keyframes AnimationName { 
-    0%{background-position:35% 0%}
-    50%{background-position:66% 100%}
-    100%{background-position:35% 0%}
-}
-.mono
-{
+	display: flex;
+	height: 38px;
+	padding: 0 30px;
+	color: #555;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 41.8px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 0px;
+	cursor: pointer;
+	box-sizing: border-box; 
+	transition: all 0.6s;
 	font-family: 'Roboto Mono', monospace;
 }
-.waves-effect.waves-blue .waves-ripple {
+.btn-flat:hover
+{
+    color: #333; 
+    outline: 0; 
+	background-color: #eeeeee;
+}
+.red
+{
+	background-color: red;
+}
+.btn:active { 
+    border-color: #039be5;
+	background-color: #fafafa;
+}
+/*FONTS*/
+.mono {
+	font-family: 'Roboto Mono', monospace;
+}
+.montserrat {
+	font-family: 'Montserrat', sans-serif;
+}
+/*COLORS*/
 
-    background-color: rgba(66,133,244, 0.65);
-}
-.pblue 
-{
-	background-color: rgba(66,133,244, 0.65);
-}
-.material-tooltip {
-	border-radius: 60px;
-}
-.nohyper
-{
-	text-decoration: none; !important;
-}
-.center-all {
+/*CENTERING*/
+.center {
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-align: center;
 }
-.fixed 
-{
-	position: fixed;
-}
-.unselectable {
-    -moz-user-select: -moz-none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
-body {
-    -webkit-font-smoothing: antialiased;
-}
-.font1
-{
-	font-family: 'Comfortaa', cursive;
-}
-.font2
-{
-	font-family: 'Roboto', sans-serif;
-}
-.font3
-{
-	font-family: 'Righteous', cursive;
-}
-.body-gradient1 {
-	height: 2870px; /* Used to enable scrolling */
-	background-image: linear-gradient(to bottom, #fafafa 2.5%, #c0b9dc, #8a7bbc, #54409b, #0c0078);
-}
-
-.font-color-1 {
-	color: #616161;
-}
-.container {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 86%;
-}
-.category-button {
-	width: 100%;
-	text-transform: capitalize;
-	text-align: right;
-	
-	padding-left: 3%;
-	padding-right: 3%;
-}
-.slider .indicators {
-  bottom: 60px;
-  z-index: 100;
-	opacity: 0;
- /* text-align: left; */
-}
-.initial {
-    width: 100%;
-}
-.new {
-    width: 100%;
-}
-.bg-img {
-  background: 
-
-    url(https://orig00.deviantart.net/0d46/f/2016/081/5/0/sunset_with_stars__by_mateuszpisarski-d9w14x7.jpg);
-	background-repeat: no-repeat;
-	background-size:cover;
-}
-.heading {
-	position: relative;
-	top: -60px;
-}
-.font-size {
-	font-size: 27px;
-}
-.label-font {
-	font-size: 18px;
-	position: relative;
-	top: -5px;
-}
-.dot {
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  display: inline-block;
-}
-.phone-title {
-	position:absolute;
-	left: 50px;
-	font-size: 40px;
-}
-.phone-title-smol {
-	position:absolute;
-	left: 30px;
-	font-size: 30px;
-}
-.phone-title-label {
-	position:absolute;
-	left: 10px;
-}
-.phone-title-label-smol {
-	position:absolute;
-	left: 3px;
-}
-.spacing {
-	position: relative;
-	top: 6px;
-}
-.gone {
-	opacity: 0;
-	transition: all 0.2s;
-}
-.not-gone {
-	opacity: 1;
-	transition: all 0.3s;
+.center-text {
+	text-align: center;
 }
 	
-
-
-#responsive-card
